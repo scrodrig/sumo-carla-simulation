@@ -764,8 +764,8 @@ class HUD(object):
                                     "nearby",
                                     d, 
                                     vehicle.get_location().x, 
-                                    vehicle.get_location().location.y, 
-                                    vehicle.get_location().location.z,
+                                    vehicle.get_location().y, 
+                                    vehicle.get_location().z,
                                     time.time()])
                 self._info_text.append('% 4dm %s' % (d, vehicle_type))
 
